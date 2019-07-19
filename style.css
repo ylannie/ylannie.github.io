@@ -1,0 +1,29 @@
+
+.container {
+
+	background: #00b2a9;
+	width: 70%;
+	margin: auto;
+	position: relative;
+}
+
+.container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.image {
+	width: 200px;
+	float: left;
+	background-color: transparent;
+}
+h1, h3 {
+	color: white;
+	line-height: 1.6em;
+}
+
+.textBox {
+	width: 70%;
+	background-color: transparent;
+	float: right;
+}
